@@ -5,7 +5,7 @@ import Vue from 'vue'
 import './hooks' // This must be imported before any component
 import Vuetify from 'vuetify'
 
-Vue.use(Vuetify);
+Vue.use(Vuetify)
 
 import App from './App.vue'
 import router from './router'
