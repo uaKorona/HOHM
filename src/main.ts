@@ -2,10 +2,12 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import '../node_modules/vuetify/dist/vuetify.min.css'
 import Vue from 'vue'
+import Vuex from 'vuex'
 import './hooks' // This must be imported before any component
 import Vuetify from 'vuetify'
 
 Vue.use(Vuetify)
+Vue.use(Vuex)
 
 import App from './App.vue'
 import router from './router'
