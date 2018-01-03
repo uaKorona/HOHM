@@ -5,6 +5,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import './hooks' // This must be imported before any component
 import Vuetify from 'vuetify'
+import store from './store'
 
 Vue.use(Vuetify)
 Vue.use(Vuex)
@@ -17,6 +18,7 @@ Vue.config.productionTip = false
 // tslint:disable-next-line:no-unused-expression
 new Vue({
   router,
+  store,
   el: '#app',
   template: '<App/>',
   components: { App }
